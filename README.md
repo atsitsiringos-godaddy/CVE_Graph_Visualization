@@ -11,8 +11,7 @@ numpy
 math
 
 **File Specifications**:  
-*recent.csv*: Recent taken from the RECENT-CVE [NIST datafeed](https://nvd.nist.gov/vuln/data-feeds). Used an [online converter](https://data.page/json/csv)
-to convert the .json file to CSV file (While this is possible to do through the python pandas library, I found that data was formatted improperly). 
+*recent.csv*: Recent taken from the RECENT-CVE [NIST datafeed](https://nvd.nist.gov/vuln/data-feeds). Used an [online converter](https://www.convertcsv.com/json-to-csv.htm) to convert the .json file to CSV file (While this is possible to do through the python pandas library, I found that data was formatted improperly). 
 
 *cve_visualization.ipynb*: Jupyter notebook that includes python code to view visualizations. Relationships shown between CVEs and CWEs, along with 
 CVE publication date (first published), cvss V3 vector string, baseScore, and baseSeverity. Nodes are grouped based on CWE, and CVEs with no associated 
