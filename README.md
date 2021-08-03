@@ -4,10 +4,10 @@
 A project to visualize relations between CVEs and CWEs from the NIST Database.
 
 **Required Python Libraries**:   
-pandas 
-networkx 
-matplotlib.pyplot
-numpy as np
+pandas   
+networkx   
+matplotlib.pyplot. 
+numpy   
 math
 
 **File Specifications**:  
