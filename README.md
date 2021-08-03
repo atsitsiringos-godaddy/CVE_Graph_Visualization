@@ -3,6 +3,9 @@
 **Overview**:   
 A project to visualize relations between CVEs and CWEs from the NIST Database.
 
+**Sample Output** 
+![alt text](http://url/to/img.png)
+
 **Required Python Libraries**:   
 pandas   
 networkx   
@@ -29,3 +32,4 @@ Potential Improvements:
  * Handling Large Datasets: Clean visualization with networkx is difficult when using large datasets
  * Labeling: The text box specifying label details might need to be replaced by clearer labels under each node
  * Node Size Customization: There might be a more direct way to achieve this 
+
