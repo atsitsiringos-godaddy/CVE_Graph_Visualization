@@ -3,7 +3,7 @@
 **Overview**:   
 A project to visualize relations between CVEs and CWEs from the NIST Database.
 
-**Sample Output**   
+**Sample Output:**   
 ![alt text](graph.png)
 
 **Required Python Libraries**:   
