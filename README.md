@@ -2,14 +2,14 @@
 
 Overview: A project to visualize relations between CVEs and CWEs from the NIST Database.
 
-**Required Python Libraries**: 
+**Required Python Libraries**:   
 pandas 
 networkx 
 matplotlib.pyplot
 numpy as np
 math
 
-**File Specifications**:
+**File Specifications**:  
 *recent.csv*: Recent taken from the RECENT-CVE [NIST datafeed](https://nvd.nist.gov/vuln/data-feeds). Used an [online converter](https://data.page/json/csv)
 to convert the .json file to CSV file (While this is possible to do through the python pandas library, I found that data was formatted improperly). 
 
