@@ -1,6 +1,7 @@
 **CVE_Graph_Visualization**
 
-Overview: A project to visualize relations between CVEs and CWEs from the NIST Database.
+**Overview**:   
+A project to visualize relations between CVEs and CWEs from the NIST Database.
 
 **Required Python Libraries**:   
 pandas 
