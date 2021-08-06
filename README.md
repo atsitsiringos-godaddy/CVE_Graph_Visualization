@@ -38,7 +38,7 @@ Low | Yellow |
 None  | Blue | 
 --- | --- |
 
-**Guidelines:** 
+**Guidelines:**  
 In addition to the standard output of the file, if you use the comments in the notebook you can:
 * Read data from a json file, not only a json dict from an http request 
 * Save the CSV made from the NIST json data 
