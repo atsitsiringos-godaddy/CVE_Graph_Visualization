@@ -4,7 +4,7 @@
 A project to visualize relations between CVEs and CWEs from the NIST Database.
 
 **Sample Output:**   
-![alt_image](<blockquote class="imgur-embed-pub" lang="en" data-id="a/DwGg4TP"  ><a href="//imgur.com/a/DwGg4TP">CVE Graph Visualization </a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>)
+![alt text](<blockquote class="imgur-embed-pub" lang="en" data-id="a/DwGg4TP"  ><a href="//imgur.com/a/DwGg4TP">CVE Graph Visualization </a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>)
 
 
 **Required Python Libraries**:   
