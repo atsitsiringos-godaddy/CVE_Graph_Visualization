@@ -7,13 +7,6 @@ A project to visualize relations between CVEs and CWEs from the NIST Database.
 ![Image](https://i.imgur.com/iSAN7gx.png)
 
 
-**Required Python Libraries**:   
-pandas   
-networkx   
-matplotlib.pyplot. 
-numpy   
-math
-
 **File Specifications**:  
 *cve_visualization.ipynb*: Jupyter notebook that includes python code to view visualizations.  Nodes are grouped based on CWE, and CVEs with no associated 
 CWE are grouped under the node with value 0. The base score of each CVE is visually shown based on each CVE node's size. To convert the scores into node sizes that
