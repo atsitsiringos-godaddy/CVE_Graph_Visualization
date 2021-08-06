@@ -18,26 +18,31 @@ math
 *cve_visualization.ipynb*: Jupyter notebook that includes python code to view visualizations.  Nodes are grouped based on CWE, and CVEs with no associated 
 CWE are grouped under the node with value 0. The risk score of each CVE is visually shown based on each CVE node's size. To convert the scores into node sizes that
 would be discernable using networkx, scores were multiplied by 10. CWEs, as well as CVEs with no risk score, are displayed with the standard size 20. The risk
-criticality of a CVE is displayed based on node color. Specidications below
+criticality of a CVE is displayed based on node color. Specidications below: 
 
-Nod
-RED = CRITICAL
-PINK = HIGH
-ORANGE = MEDIUM
-YELLOW = LOW
-BLUE = NONE 
 
-NODE COLOR | SEVERITY SCORE | 
+BASE SCORE | NODE SIZE | 
 --- | --- |
-RED |  CRITICAL| 
+None | 20 |
 --- | --- |
-PINK | HIGH | 
+Low | 20 - 39 |
 --- | --- |
-ORANGE | MEDIUM |
+Medium | 40 - 59 |
 --- | --- |
-YELLOW | LOW |
+High | 70 - 100 |
 --- | --- |
-BLUE | NONE |
+
+SEVERITY SCORE | NODE COLOR | 
+--- | --- |
+Critical | Red |
+--- | --- |
+High | Pink |
+--- | --- |
+Medium | Orange |
+--- | --- |
+Low | Yellow |
+--- | --- |
+None  | Blue | 
 --- | --- |
 
 Relationships shown between CVEs and CWEs, along with 
