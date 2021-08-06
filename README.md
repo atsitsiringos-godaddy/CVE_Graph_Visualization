@@ -16,9 +16,9 @@ math
 
 **File Specifications**:  
 *cve_visualization.ipynb*: Jupyter notebook that includes python code to view visualizations.  Nodes are grouped based on CWE, and CVEs with no associated 
-CWE are grouped under the node with value 0. The risk score of each CVE is visually shown based on each CVE node's size. To convert the scores into node sizes that
-would be discernable using networkx, scores were multiplied by 10. CWEs, as well as CVEs with no risk score, are displayed with the standard size 20. The risk
-criticality of a CVE is displayed based on node color. Specidications below: 
+CWE are grouped under the node with value 0. The base score of each CVE is visually shown based on each CVE node's size. To convert the scores into node sizes that
+would be discernable using networkx, scores were multiplied by 10. CWEs, as well as CVEs with no risk score, are displayed with the standard size 20. The severity
+score of a CVE is displayed based on node color. Specidications below: 
 
 
 BASE SCORE | NODE SIZE | 
@@ -27,7 +27,7 @@ None | 20 |
 --- | --- |
 Low | 20 - 39 |
 --- | --- |
-Medium | 40 - 59 |
+Medium | 40 - 69 |
 --- | --- |
 High | 70 - 100 |
 --- | --- |
@@ -45,17 +45,9 @@ Low | Yellow |
 None  | Blue | 
 --- | --- |
 
-Relationships shown between CVEs and CWEs, along with 
-CVE publication date (first published), cvss V3 vector string, baseScore, and baseSeverity.
-
-The risk score of each CVE is visually shown based on each CVE node's size. To convert the scores into node sizes that would be discernable using 
-networkx, scores were multiplied by 10. CWEs, as well as CVEs with no risk score, are displayed with the standard size 20. 
-
-*graph.png*: sample output of the program (saved as matplotlib figure and then converted to .png file) 
-
 Potential Improvements:
- * JSON to CSV or Pandas Dataframe Conversion 
+ * Add separate function for converting json file to pandas dataframe (currently only handles json dict, but has comments that detail how to handle json file) 
  * Handling Large Datasets: Clean visualization with networkx is difficult when using large datasets
- * Labeling: The text box specifying label details might need to be replaced by clearer labels under each node
- * Node Size Customization: There might be a more direct way to achieve this 
+ * Node Size and Color Customization: There might be a more direct way to achieve this 
+ * Node Shape: Make CVE nodes squares and CWE nodes circles
 
