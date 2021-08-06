@@ -38,7 +38,7 @@ Low | Yellow |
 None  | Blue | 
 --- | --- |
 
-Guidelines:
+**Guidelines:** 
 In addition to the standard output of the file, if you use the comments in the notebook you can:
 * Read data from a json file, not only a json dict from an http request 
 * Save the CSV made from the NIST json data 
@@ -49,7 +49,7 @@ In addition to the standard output of the file, if you use the comments in the n
 * Display additional data in graph as labels (date published, vector string, etc.) 
 * Save the resulting graph as an image
 
-Potential Improvements:
+**Potential Improvements:** 
  * Automate guidelines/user abilities outlined above, use command line for better user experience 
  * Handling Large Datasets: Clean visualization with networkx is difficult when using large datasets
  * Node Size and Color Customization: There might be a more direct way to achieve this 
