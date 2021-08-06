@@ -28,10 +28,15 @@ YELLOW = LOW
 BLUE = NONE 
 
 NODE COLOR | SEVERITY SCORE | 
+- | - |
 RED |  CRITICAL| 
+- | - |
 PINK | HIGH | 
+- | - |
 ORANGE | MEDIUM |
+- | - |
 YELLOW | LOW |
+- | - |
 BLUE | NONE |
 
 Relationships shown between CVEs and CWEs, along with 
