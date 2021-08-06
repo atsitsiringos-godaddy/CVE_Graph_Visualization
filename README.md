@@ -4,7 +4,7 @@
 A project to visualize relations between CVEs and CWEs from the NIST Database.
 
 **Sample Output:**   
-![Graph Visualization](https://imgur.com/a/DwGg4TP)
+![Graph Visualization](<blockquote class="imgur-embed-pub" lang="en" data-id="a/DwGg4TP"  ><a href="//imgur.com/a/DwGg4TP">CVE Graph Visualization </a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>)
 
 
 **Required Python Libraries**:   
@@ -15,13 +15,24 @@ numpy
 math
 
 **File Specifications**:  
-*recent.json*: Recent taken from the RECENT-CVE [NIST datafeed](https://nvd.nist.gov/vuln/data-feeds). 
+*cve_visualization.ipynb*: Jupyter notebook that includes python code to view visualizations.  Nodes are grouped based on CWE, and CVEs with no associated 
+CWE are grouped under the node with value 0. The risk score of each CVE is visually shown based on each CVE node's size. To convert the scores into node sizes that
+would be discernable using networkx, scores were multiplied by 10. CWEs, as well as CVEs with no risk score, are displayed with the standard size 20. The risk
+criticality of a CVE is displayed based on node color, where: 
 
-*recent.csv*: Used an [online converter](https://www.convertcsv.com/json-to-csv.htm) to convert the .json file to CSV file (While this is possible to do through the python pandas library, I found that data was formatted improperly). 
+Nod
+RED = CRITICAL
+PINK = HIGH
+ORANGE = MEDIUM
+YELLOW = LOW
+BLUE = NONE 
 
-*cve_visualization.ipynb*: Jupyter notebook that includes python code to view visualizations. Relationships shown between CVEs and CWEs, along with 
-CVE publication date (first published), cvss V3 vector string, baseScore, and baseSeverity. Nodes are grouped based on CWE, and CVEs with no associated 
-CWE are grouped under the node with value 0. 
+Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+
+Relationships shown between CVEs and CWEs, along with 
+CVE publication date (first published), cvss V3 vector string, baseScore, and baseSeverity.
 
 The risk score of each CVE is visually shown based on each CVE node's size. To convert the scores into node sizes that would be discernable using 
 networkx, scores were multiplied by 10. CWEs, as well as CVEs with no risk score, are displayed with the standard size 20. 
