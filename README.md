@@ -38,9 +38,18 @@ Low | Yellow |
 None  | Blue | 
 --- | --- |
 
+Guidelines:
+In addition to the standard output of the file, if you use the comments in the notebook you can:
+* Read data from a json file, not only a json dict from an http request 
+* Save the CSV made from the NIST json data 
+* Change node size
+* Change node coloring
+* Change node labe position
+* Display additional data in graph as labels (date published, vector string, etc.) 
+* Save the resulting graph as an image
+
 Potential Improvements:
- * Add separate function for converting json file to pandas dataframe (currently only handles json dict, but has comments that detail how to handle json file) 
+ * Automate guidelines/user abilities outlined above, use command line for better user experience 
  * Handling Large Datasets: Clean visualization with networkx is difficult when using large datasets
  * Node Size and Color Customization: There might be a more direct way to achieve this 
  * Node Shape: Make CVE nodes squares and CWE nodes circles
-
