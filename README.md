@@ -4,9 +4,7 @@
 A project to visualize relations between CVEs and CWEs from the NIST Database.
 
 **Sample Output:**   
-![alt text](https://secureservernet.sharepoint.com/:i:/r/sites/InfoSecTeam/Shared%20Documents/Threat%20Research%20Team/Brainstorming/graphingtool/sampleout.png?csf=1&web=1&e=PGJ1qB)
-
-![alt text](https://secureservernet.sharepoint.com/:i:/r/sites/InfoSecTeam/Shared%20Documents/Threat%20Research%20Team/Brainstorming/graphingtool/sampleout1.png?csf=1&web=1&e=qkmNAj)
+![Graph Visualization](https://imgur.com/a/DwGg4TP)
 
 
 **Required Python Libraries**:   
