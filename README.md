@@ -38,6 +38,7 @@ ORANGE | MEDIUM |
 YELLOW | LOW |
 - | - |
 BLUE | NONE |
+- | - |
 
 Relationships shown between CVEs and CWEs, along with 
 CVE publication date (first published), cvss V3 vector string, baseScore, and baseSeverity.
