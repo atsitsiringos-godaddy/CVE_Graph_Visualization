@@ -5,4 +5,7 @@ lib
 share
 venv
 graph.png
-recent.*
+recent.json
+out.csv
+out.zip
+.*
