@@ -44,7 +44,8 @@ In addition to the standard output of the file, if you use the comments in the n
 * Save the CSV made from the NIST json data 
 * Change node size
 * Change node coloring
-* Change node labe position
+* Change node label position
+* Change label font size 
 * Display additional data in graph as labels (date published, vector string, etc.) 
 * Save the resulting graph as an image
 
