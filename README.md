@@ -27,9 +27,17 @@ ORANGE = MEDIUM
 YELLOW = LOW
 BLUE = NONE 
 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+NODE COLOR | SEVERITY SCORE | 
+--- | --- | 
+RED |  CRITICAL| 
+--- | --- | 
+PINK | HIGH | 
+--- | --- | 
+ORANGE | MEDIUM |
+--- | --- | 
+YELLOW | LOW |
+--- | --- | 
+BLUE | NONE |
 
 Relationships shown between CVEs and CWEs, along with 
 CVE publication date (first published), cvss V3 vector string, baseScore, and baseSeverity.
