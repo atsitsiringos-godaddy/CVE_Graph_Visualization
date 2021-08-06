@@ -4,7 +4,7 @@
 A project to visualize relations between CVEs and CWEs from the NIST Database.
 
 **Sample Output:**   
-![alt text](https://imgur.com/a/DwGg4TP)
+![Image](https://i.imgur.com/iSAN7gx.png)
 
 
 **Required Python Libraries**:   
